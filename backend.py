@@ -644,8 +644,6 @@ class State:
             self.record_log()
             for robot in self.robots:
                 robot.fall_into_hole(self)
-                self.record_log()
-
 
     def get_next_coordinates_for_belts(self, express_belts):
         """
